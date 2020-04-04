@@ -20,6 +20,14 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
 <?php wp_head(); ?>
+<style type="text/css">
+<!--
+html {
+filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+-webkit-filter: grayscale(100%);}
+-->
+</style>
+
 </head>
 
 <body <?php body_class(); ?>>
